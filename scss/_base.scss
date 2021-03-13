@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: $primary-font;
+  font-weight: $font-bold;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.container {
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+}

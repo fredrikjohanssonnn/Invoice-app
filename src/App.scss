@@ -1,0 +1,19 @@
+@import '../scss/variables';
+@import '../scss/base';
+@import '../scss/components/button';
+@import '../scss/components/header';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: $primary-font;
+  background-color: $background;
+}
