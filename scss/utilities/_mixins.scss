@@ -1,0 +1,10 @@
+@mixin btn {
+    display: inline-block;
+    font-family: inherit;
+    color: #fff;
+    font-weight: $font-bold;
+    font-size: 1.2rem;
+    border: none;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}

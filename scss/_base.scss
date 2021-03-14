@@ -13,6 +13,14 @@ h1 {
 
 .container {
   display: flex;
-  max-width: 120rem;
+  flex-direction: column;
+  max-width: 80rem;
+  padding: 0 2rem 0 2rem;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
 }

@@ -1,0 +1,30 @@
+.invoice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    border-radius: 5px;
+    box-shadow: -5px 10px 5px -10px hsla(233, 31%, 17%, 0.164);
+
+    &__id {
+        color: $primary-color-lighter;
+
+        & > span {
+            color: $black;
+        }
+    }
+    &__date,
+    &__name {
+        color: $light-text;
+    }
+}
+
+.invoice > *:not(:last-child) {
+
+    align-content: flex-start;
+    max-width: 25rem;
+    width: 25rem;
+}

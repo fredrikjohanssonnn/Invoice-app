@@ -1,13 +1,25 @@
 // Colors
 
+$black: hsl(228, 29%, 7%);
+
 $primary-color: hsl(252, 94%, 67%);
+$primary-color-lighter: hsl(231, 37%, 63%);
 $primary-color-light: hsl(252, 100%, 73%);
 $primary-color-darker: hsl(233, 31%, 17%);
 $primary-color-dark: hsl(233, 30%, 21%);
 
 $background: hsl(240, 27%, 98%);
-
 $light-text: hsl(231, 20%, 61%);
+
+// Status buttons
+
+$paidBtn: #33D69F;
+$pendingBtn: #FF8F00;
+$draftBtn: #373B53;
+
+$paidBtnBg: #33d6a01c;
+$pendingBtnBg: #ff91001c;
+$draftBtnBg: #373b5321;
 
 $primary-font: 'Spartan', sans-serif;
 
