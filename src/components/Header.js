@@ -1,11 +1,12 @@
 import Button from "./Button"
 
-const Header = () => {
+const Header = ({ invoices }) => {
+
     return (
-        <div className="header">
+        <div className="header row">
             <div className="title">
                 <h1>Invoices</h1>
-                <p className="title__paragraph">There are total 7 invoices</p>
+                <p className="title__paragraph">There are total {invoices.length} invoices</p>
             </div>
             <div>
                 <button>Filter by status</button>
