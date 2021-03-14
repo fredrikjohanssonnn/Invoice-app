@@ -1,9 +1,8 @@
-import React from 'react'
 import Invoice from './Invoice'
 
 const InvoiceList = ({ invoices }) => {
     return (
-        <div className="row">
+        <div className="invoicelist row">
             {
                 invoices.map(invoice => (
                     <Invoice invoice={invoice} />
