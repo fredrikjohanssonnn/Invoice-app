@@ -13,7 +13,7 @@
         color: $primary-color-lighter;
 
         & > span {
-            color: $black;
+            color: $heading;
         }
     }
     &__date,
@@ -38,6 +38,12 @@
 
         font-size: 2.5rem;
         margin-right: 5px;
+    }
+
+    &__arrow {
+
+        margin-left: 2rem;
+        transform: rotate(270deg);
     }
 }
 

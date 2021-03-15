@@ -4,10 +4,33 @@
   align-items: center;
   width: 100%;
   margin-top: 7rem;
+
+  &__action {
+
+    display: flex;
+  }
 }
 
 .title {
+
+  & > h1 {
+
+    padding-bottom: 0.8rem;
+  }
   &__paragraph {
     color: $light-text;
+  }
+}
+
+.filter-invoices {
+
+  @include btn;
+  background-color: transparent;
+  color: $heading;
+  margin-right: 5rem;
+
+  & > svg {
+
+    margin-left: 1rem;
   }
 }
