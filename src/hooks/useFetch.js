@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 
 const useFetch = (url) => {
 
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(null);
     const [error, setError] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         fetch(url, {
@@ -19,13 +20,14 @@ const useFetch = (url) => {
             })
             .then(data => {
                 setData(data);
+                setIsLoading(false);
             })
-            .catch(err => {
-                setError(err.message);
+            .catch(error => {
+                setError(error);
             })
     }, [url]);
 
-    return { data, error };
+    return { data, error, isLoading };
 }
 
 export default useFetch;
