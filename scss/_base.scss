@@ -34,3 +34,31 @@ h1 {
   box-shadow: -5px 10px 5px -10px hsla(233, 31%, 17%, 0.164);
   margin-bottom: 2rem;
 }
+
+.flex-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.deg270 {
+  transform: rotate(270deg);
+}
+
+.deg90 {
+  transform: rotate(90deg);
+}
+
+.light-grey {
+  background-color: $primary-color-lighter !important;
+}
+
+.warning {
+  background-color: $warning !important;
+}

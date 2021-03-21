@@ -1,13 +1,11 @@
 .btn {
-
   background-color: $primary-color;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   border-radius: 5rem;
   @include btn;
 }
 
 .new-invoice-btn {
-
   display: flex;
   align-items: center;
 
@@ -16,10 +14,16 @@
   }
 }
 
+.action-btn {
+  padding: 1.8rem 2.5rem;
+  margin-left: 1rem;
+}
+
 .status-btn {
   @include btn;
-  padding: 1rem 0rem;
+  padding: 0.8rem 3rem;
   border-radius: 5px;
+  text-align: center;
 }
 
 .paid {

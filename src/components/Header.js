@@ -14,7 +14,7 @@ const Header = ({ invoices }) => {
                     <path d="M1 1L5.2279 5.2279L9.4558 1" stroke="#7C5DFA" strokeWidth="2"/>
                     </svg>
                 </button>
-                <Button style={'new-invoice-btn '} text={"New invoice"} />
+                <Button text={"New invoice"} />
             </div>
         </div>
     )
